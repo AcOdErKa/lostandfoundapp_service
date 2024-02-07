@@ -9,7 +9,8 @@ const addressSchema = new mongoose.Schema({
 const contactSchema = new mongoose.Schema({
     email: String,
     phone: String,
-    contact: String
+    contact: String,
+    username: String
 })
 const itemSchema = new mongoose.Schema({
     itemName: {
